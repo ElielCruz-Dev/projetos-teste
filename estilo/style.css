@@ -86,6 +86,10 @@ main p {
     font-family: var(--fonte02);
 }
 
+#bloco1 #bloco2 {
+    display: inline-block;
+}
+
 
 footer {
     background-color: var(--cor01);
