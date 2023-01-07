@@ -84,15 +84,17 @@ main {
 
 main p {
     font-family: var(--fonte02);
+    text-align: justify;
 }
 
-#bloco1 #bloco2 {
+#bloco1, #bloco2 {
     display: inline-block;
+    width: 40%;
 }
 
-#foto1 #foto2 {
-    width: 400px;
-    height: 400px;
+#foto1, #foto2 {
+    width: 200px;
+    height: 200px;
 }
 
 
